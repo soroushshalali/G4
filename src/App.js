@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        Test
+        Test 2
       </div>
     </BrowserRouter>
   );

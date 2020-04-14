@@ -9,6 +9,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         Test 2
+        Jetzt gehts los!
       </div>
     </BrowserRouter>
   );

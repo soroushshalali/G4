@@ -1,4 +1,31 @@
+/* #3dd7ac
+#5d3ede
+#03000f */
+
 .coding{
-    background-color: #03000f;
-    height: 100vh;
+display: flex;
+}
+.title-sec{
+width: 60%;
+display: flex;
+justify-content: space-between;
+color: #3dd7ac;
+}
+.title-sec > div{
+    margin-left: -15px;
+    font-size: 2em;
+    align-self: flex-end;
+}
+.title-sec > div > span{
+    
+}
+.title-sec >h1{
+    font-size: 3em;
+}
+.title-sec >h5{
+    transform: rotate(90deg);
+}
+.img-sec{
+width: 32%;
+background-color: #03000f;
 }

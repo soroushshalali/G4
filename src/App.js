@@ -3,23 +3,23 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route } from "react-router-dom";
 import Coding from './Components/Coding/Coding';
-//import Workshop from './Components/Workshop/Workshop';
-import Campus from './Components/Campus/Capmus';
-// import Form from './Components/Form/Hamburger';
-// import Form from './Components/Form/Form';
-
-
+import Form from './Components/Form/FormItem';
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Campus />
+    function App() {
+      return (
+        <BrowserRouter>
+          <div className="App">
 
-        <Campus />
 
-      </div>
-    </BrowserRouter>
-  );
-}
+            <Coding />
+            <Campus />
+
+            <Workshop />
+            <Campus />
+          </div>
+        </BrowserRouter>
+      );
+    }
 
 export default App;

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap');
+/* font-family: 'Fira Sans'; */
+/* -webkit-text-fill-color: #03000F;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #3DD7AC; */
+body{
+    background-color: #03000F;
+    font-family: 'Fira Sans';
+}
+h1{ color: #3dd7ac;
+    text-align:left;
+}
+h2{ font-size: 0.8em;
+    color: #3dd7ac;
+    text-align: left;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 50%;
+}
+form > input{
+    font-size: 1.25em;
+    border: 1px solid #fff;
+    background-color: #03000F;
+    color: #fff;
+}
+form > textarea{
+    font-size: 1.25em;
+    border: 1.77px solid #fff;
+    background-color: #03000F;
+    color: #fff;
+}
+button{
+    font-size: 1.25em;
+    border: 1px solid #fff;
+    background-color: #03000F;
+    color: #fff
+}
+button:hover{
+    background-color: #fff;
+    color: #03000F;
+    transition: 1s;
+}

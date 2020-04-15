@@ -1,13 +1,15 @@
-import React from 'react';
-import './form.css';
+// import React from 'react';
+// import './form.css';
+// import { useForm } from 'react-hook-form';
+// import FormItem from './FormItem';
 
-const Form = () => {
-    return (
-        <div>
-            <h1>Hi, Wie können wir dir helfen?</h1>
-            <h2>lorem ipsum..............</h2>
-        </div>
-    );
-}
+// const  = () => {
+//     return (  );
+// }
 
-export default Form;
+// export default ;
+
+// export default Form;
+
+
+

@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route } from "react-router-dom";
 import Coding from './Components/Coding/Coding';
+import Workshop from './Components/Workshop/Workshop';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Coding />
+        <Workshop />
       </div>
     </BrowserRouter>
   );

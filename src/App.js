@@ -11,7 +11,9 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Coding />
+
         <Workshop />
+
       </div>
     </BrowserRouter>
   );

@@ -1,11 +1,10 @@
 import React from 'react';
-
-
+import './codingStyle.css'
 
 const Coding = () => {
     return (
-        <header>
-            test
+        <header className="coding" >
+            <span><i class="fas fa-chevron-down"></i></span>
         </header>
     );
 }

@@ -1,25 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route } from "react-router-dom";
-import Coding from './Components/Coding/Coding';
-import Form from './Components/Form/FormItem';
+import Form from './Components/Form/Form';
+
 function App() {
   return (
-    function App() {
-      return (
-        <BrowserRouter>
-          <div className="App">
-
-
-            <Coding />
-            <Campus />
-
-            <Workshop />
-            <Campus />
-          </div>
-        </BrowserRouter>
-      );
-    }
+    <BrowserRouter>
+      <div className="App">
+        {/* <Form /> */}
+      </div>
+    </BrowserRouter>
+  );
+}
 
 export default App;
+

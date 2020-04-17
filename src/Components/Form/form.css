@@ -21,6 +21,7 @@ form{
     margin-bottom: 20%;
 }
 form > input{
+    padding-left: 10px;
     font-size: 1.25em;
     border: 2px solid #fff;
     background-color: #03000F;

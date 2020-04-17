@@ -3,6 +3,7 @@
   grid-template-columns: 1fr, 1fr, 1fr, 1fr;
   grid-template-rows: 8.3%, 8.3%, 8.3%, 8.3%, 8.3%, 8.3%, 8.3%, 8.3%, 8.3%, 8.3%, 8.3%, 8.3%, ;
   font-family: 'Fira Sans';
+
 }
 
 .campusTitle{
@@ -31,3 +32,32 @@
   height: 300px;
   width: 300px;
 }
+
+.itemImage{
+  grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: row1-start;
+  grid-row-end: 3;
+}
+
+h2 span{
+  font: 26px Monaco, MonoSpace;
+  height: 200px;
+  position: absolute;
+  width: 20px;
+  left: 0;
+  top: 0;
+  transform-origin: bottom center;
+}
+
+.char1 { transform: rotate(6deg); }
+.char2 { transform: rotate(12deg); }
+.char3 { transform: rotate(18deg); }
+.char4 { transform: rotate(24deg); }
+.char5 { transform: rotate(30deg); }
+.char6 { transform: rotate(36deg); }
+.char7 { transform: rotate(42deg); }
+.char8 { transform: rotate(48deg); }
+.char9 { transform: rotate(56deg); }
+.char10 { transform: rotate(62deg); }
+.char11 { transform: rotate(68deg); }

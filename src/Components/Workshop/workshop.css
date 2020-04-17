@@ -8,14 +8,14 @@
     background-color: #03000F;
     /* height: 50vh; */
 }
-h2 {
+.lerne-coden h2 {
     color: #3DD7AC;
     font-size: 4rem;
     padding: 70px 0 70px 10px;
     text-align: left;
     margin: 0;
 }
-h3 {
+.coden-lernen h3 {
     text-align: left;
     padding: 10px 40px;
     margin: 0;
@@ -23,10 +23,10 @@ h3 {
     color: #3DD7AC;
 
 }
-h3:hover {
+.coden-lernen h3:hover {
     cursor: pointer;
 }
-span {
+.lerne-coden span {
     -webkit-text-fill-color: #03000F;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #3DD7AC;
@@ -46,7 +46,7 @@ span {
     background-color: #5D3EDE;
     color: white;
 }
-a {
+.klappentext a {
     color: white;
     border: white solid 3px;
     padding: 5px 50px;

@@ -4,14 +4,15 @@ import './App.css';
 import { BrowserRouter, Route } from "react-router-dom";
 import Workshop from './Components/Workshop/Workshop.js';
 import Campus from './Components/Campus/Capmus.js';
-import Form from './Components/Form/Form';
+import Coding from './Components/Coding/Coding.js';
+import Form from './Components/Form/Form.js';
 
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Coding />
+
         <Workshop />
         <Form />
       </div>

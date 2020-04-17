@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap');
+
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+.lerne-coden {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #03000F;
+    /* height: 50vh; */
+}
+h2 {
+    color: #3DD7AC;
+    font-size: 4rem;
+    padding: 70px 0 70px 10px;
+    text-align: left;
+    margin: 0;
+}
+h3 {
+    text-align: left;
+    padding: 10px 40px;
+    margin: 0;
+    background-color: #5D3EDE;
+    color: #3DD7AC;
+
+}
+h3:hover {
+    cursor: pointer;
+}
+span {
+    -webkit-text-fill-color: #03000F;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3DD7AC;
+}
+
+.openclose {
+    display: none;
+}
+
+.klappentext {
+    text-align: left;
+    display: none;
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    padding: 10px 40px;
+    background-color: #5D3EDE;
+    color: white;
+}
+a {
+    color: white;
+    border: white solid 3px;
+    padding: 5px 50px;
+    text-decoration: none;
+    margin-top: 30px;
+}

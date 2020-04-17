@@ -20,7 +20,7 @@ const Campus = () => {
           </p>
         </div>
         <div>
-          <img className="" />
+          
         </div>
       </div>
     </div>

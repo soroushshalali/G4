@@ -11,7 +11,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-
+        <Coding />
+        <Workshop />
         <Form />
       </div>
     </BrowserRouter>

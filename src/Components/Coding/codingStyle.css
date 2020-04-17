@@ -57,7 +57,7 @@ display: block;
     justify-self: flex-end;
 }
 .fa-phone{
-    color: rgb(255, 0, 0);
+
     transform: rotate(270deg);
 }
 .img-sec{

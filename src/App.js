@@ -13,8 +13,6 @@ function App() {
       <div className="App">
         <Campus />
 
-        <Campus />
-
       </div>
     </BrowserRouter>
   );

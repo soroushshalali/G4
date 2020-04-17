@@ -1,14 +1,14 @@
 body{
     background-color: #03000F;
 }
-h1{ color: #3dd7ac;
+.wirhelfen{ color: #3dd7ac;
     text-align:left;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 900;
     font-size: 2.4em;
     font-variant-position: super;
 }
-h2{ 
+.superhilfe{ 
     color: #3dd7ac;
     font-size: 0.77em;
     text-align: left;
@@ -43,14 +43,14 @@ button:hover{
     color: #03000F;
     transition: 1s;
 }
-span{
+.cool{
     -webkit-text-fill-color: #03000F;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #3DD7AC;
 }
-main{
-    margin-left: 5%;
-    margin-top: 2.5%;
+.helfen{
+    margin-left: 4%;
+    margin-top: 0.5%;
     display: grid;
     grid-template-columns: 40% 50%;
     justify-content: center;

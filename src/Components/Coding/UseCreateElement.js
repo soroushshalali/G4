@@ -15,4 +15,5 @@ function useCreateElement(para) {
     }, [])
     return [span, func]
 }
+
 export default useCreateElement

@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Route } from "react-router-dom";
 import Workshop from './Components/Workshop/Workshop.js';
+import Campus from './Components/Campus/Campus.js';
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         
-        <Workshop />
+        <Campus />
       </div>
     </BrowserRouter>
   );

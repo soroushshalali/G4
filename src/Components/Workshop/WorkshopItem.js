@@ -23,7 +23,7 @@ class WorkshopItem extends Component {
     }
     render() {
         return ( 
-            <div>
+            <div className="coden-lernen">
                     <div>
                         <h3 onClick={this.handleClick} style={{ backgroundColor: this.state.backgroundColor}}>{this.props.name}</h3>
                     </div>

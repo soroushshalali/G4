@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 class ChevronDownAni extends Component {
     state = {
         a: 1,
@@ -17,10 +16,8 @@ class ChevronDownAni extends Component {
         }
     }
     componentDidMount() {
-        setInterval(this.funAni, 1000);
+        setInterval(this.funAni, 800);
     }
-
-
     render() {
         return (
             <div>
@@ -30,8 +27,4 @@ class ChevronDownAni extends Component {
         );
     }
 }
-
-
-
-
 export default ChevronDownAni;

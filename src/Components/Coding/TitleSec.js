@@ -13,12 +13,15 @@ function useClick(className) {
     }, 2000);
     return [color]
 }
+
+
+
 const TitleSec = () => {
     const [className] = useClick("title-sec");
     return (
         <section className="title-sec" >
             <ChevronDownAni />
-            <h1 className={className}>Teste deine<br></br>Codingskills in<br></br>einem unserer<br></br><span className={className} >Workshops</span></h1>
+            <h1 className={className}>Teste deine Codingskills in einem unserer <span className={className} >Workshops</span></h1>
             <h5>2384273864872364<i className="fas fa-phone"></i></h5>
         </section>
     );

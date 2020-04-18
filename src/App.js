@@ -9,12 +9,14 @@ import Coding from './Components/Coding/Coding';
 import Programming from './Components/Coding/Programming';
 import Campus from './Components/Campus/Capmus';
 import Home from './Components/Home';
+import HamburgerM from './Components/HamburgerM';
 
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <HamburgerM />
         <Route path='/' component={Home} exact />
         <Route path='/contact' component={Form} />
       </div>

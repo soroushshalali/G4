@@ -30,13 +30,13 @@ const Home = () => {
     //     console.log(el);
     // })
     return (
-        <article>
+        <main>
             <Coding />
             <LogoC />
             <Programming />
             <Workshop />
             <Campus />
-        </article>
+        </main>
     );
 }
 

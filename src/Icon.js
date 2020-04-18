@@ -11,7 +11,7 @@ class Icon extends Component {
     render() {
         return (
             <section>
-                <Link to='/Components/Form/Form' >
+                <Link to='/contact' >
                     <div id="nav-icon2">
                         <span></span>
                         <span></span>

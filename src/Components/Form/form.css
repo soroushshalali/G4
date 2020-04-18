@@ -55,6 +55,7 @@ button:hover{
     display: grid;
     grid-template-columns: 40% 50%;
     justify-content: center;
+    transition: 1s;
 }
 ::placeholder {
     color: #fff;

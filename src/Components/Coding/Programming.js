@@ -4,7 +4,7 @@ import './codingStyle.css';
 const Programming = () => {
     return (
         <section className="programming-sec" >
-            <span>(c)</span>
+            <span></span>
             <h1>Du willst programmieren lernen<br></br>
             aber weißt nicht wiedu starten sollst
             </h1>

@@ -29,11 +29,11 @@ function useLogoAni() {
     const [bottomLeft, setBottomLeft] = useState();
     function setBorder() {
         function xValue() {
-            let x = Math.floor(Math.random() * 99) + 30;
+            let x = Math.floor(Math.random() * 100) + 30;
 
             setTimeout(() => {
                 setTopRight(x + '%')
-            }, 1500);
+            }, 500);
 
             setTimeout(() => {
                 setbottomRight(x + '%')
@@ -41,7 +41,7 @@ function useLogoAni() {
 
             setTimeout(() => {
                 setBottomLeft(x + '%')
-            }, 500);
+            }, 1500);
 
 
         }
@@ -52,9 +52,6 @@ function useLogoAni() {
     }, [])
     return [topRight, bottomRight, bottomLeft, setBorder]
 }
-
-
-
 const LogoSuperCode = () => {
     const [topRight, bottomRight, bottomLeft, setBorderR] = useLogoAni();
     return (

@@ -172,7 +172,9 @@ background-color: white;
 padding: 50px 25px;
 border-radius: 100%;
 transition: 1s;
+transition-timing-function: linear;
 outline: none;
+box-shadow: 0px 0px 100px #5d3ede;
 }
 
 /* Mobile Version */

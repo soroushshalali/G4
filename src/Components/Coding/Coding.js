@@ -8,7 +8,7 @@ const Coding = () => {
     window.addEventListener("mouseover", (el) => {
         if (el.target.className == "star") {
             el.target.style.fontSize = "1.5em"
-            el.target.style.color = "#3dd7ac"
+            el.target.style.color = "#5d3ede"
         }
     })
     window.addEventListener("mouseout", (el) => {

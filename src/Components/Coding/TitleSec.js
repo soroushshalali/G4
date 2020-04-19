@@ -14,8 +14,6 @@ function useClick(className) {
     return [color]
 }
 
-
-
 const TitleSec = () => {
     const [className] = useClick("title-sec");
     return (

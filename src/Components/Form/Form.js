@@ -5,7 +5,7 @@ import FormItem from './FormItem';
 const Form = () => {
     return (
         <main className="helfen">
-            <h1 className="wirhelfen">Hi, wie <br></br>können wir <br></br>dir <span className="cool">helfen?</span></h1><br></br>
+            <h1 className="wirhelfen">Hi, wie <br></br>können wir <br></br>dir <span className="cool">helfen?</span></h1>
             <h2 className="superhilfe">Du erreichst uns am besten an den folgenden Tagen<br></br>
              und Zeiten:<br></br><br></br>Montag - Freitag<br></br>09.00 - 17.00 Uhr<br></br>
                 <br></br><br></br>Unser Campus befindet sich im Super7000<br></br>Coworking Space -

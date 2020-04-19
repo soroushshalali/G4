@@ -23,13 +23,13 @@ import React, { useState, useEffect } from 'react';
 //     return [borderR, setBorderR]
 // }
 
-function useLogoAni() {
+function useSuperCodeLogo() {
     const [topRight, setTopRight] = useState();
     const [bottomRight, setbottomRight] = useState();
     const [bottomLeft, setBottomLeft] = useState();
     function setBorder() {
         function xValue() {
-            let x = Math.floor(Math.random() * 100) + 30;
+            let x = Math.floor(Math.random() * 100) + 20;
 
             setTimeout(() => {
                 setTopRight(x + '%')
@@ -42,8 +42,6 @@ function useLogoAni() {
             setTimeout(() => {
                 setBottomLeft(x + '%')
             }, 1500);
-
-
         }
         setInterval(xValue, 1500);
     }
@@ -52,8 +50,9 @@ function useLogoAni() {
     }, [])
     return [topRight, bottomRight, bottomLeft, setBorder]
 }
+
 const LogoSuperCode = () => {
-    const [topRight, bottomRight, bottomLeft, setBorderR] = useLogoAni();
+    const [topRight, bottomRight, bottomLeft, setBorderR] = useSuperCodeLogo();
     return (
         <div>
             <div className='logosupercode' >

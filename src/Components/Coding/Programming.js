@@ -6,7 +6,7 @@ const Programming = () => {
         <section className="programming-sec" >
             <span></span>
             <h1>Du willst programmieren lernen<br></br>
-            aber weißt nicht wiedu starten sollst
+            aber weißt nicht wie du starten sollst
             </h1>
             <span>?</span>
         </section>

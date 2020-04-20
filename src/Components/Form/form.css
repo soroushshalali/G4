@@ -44,6 +44,9 @@ form > textarea{
     background-color: #03000F;
     color: #fff;
 }
+form > textarea::placeholder{
+    padding-left: 1%;
+}
 button{
     font-size: 1.25em;
     border: 1px solid #fff;

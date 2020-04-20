@@ -1,0 +1,11 @@
+.vectorDiv1{
+    background-color: white;
+}
+.vectorDiv1 >div{
+    background-color: #03000f;
+    height: 30vh;
+}
+.vectorDiv1 > img{
+    width: 100%;
+    margin-top: -30vh;
+}

@@ -11,7 +11,9 @@ const ImgSec = () => {
     // })
     return (
         <article className="test-art" >
+
             <section className="img-sec" >
+                <img src="img/Vector22.png" alt="" />
                 <div className="star-div1" >
                     {span}
                 </div>

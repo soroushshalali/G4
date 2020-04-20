@@ -6,15 +6,18 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    left: 95%;
-    color: green;
+    left: 90%;
+    color: #3dd7ac;
+    margin-top: 2%;
+    
 }
 .linkHM > span{
     margin: -7px 0;
     letter-spacing: -7px;
-    font-size: 2em;
+    font-size: 1.7em;
     font-weight: 900;
-    transition: 1s;
+    transition: 0.5s;
+    margin-top: 2%;
 }
 .span1{
     transform: rotate(45deg);

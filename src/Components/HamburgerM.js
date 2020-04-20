@@ -19,9 +19,9 @@ const HamburgerM = () => {
 
     return (
         <Link className='linkHM' onClick={changeLink} to={link} >
-            <span className={className1} >----------</span>
-            <span className={className2} >----------</span>
-            <span className={className3} >----------</span>
+            <span className={className1} >--------</span>
+            <span className={className2} >--------</span>
+            <span className={className3} >--------</span>
         </Link>
     );
 }

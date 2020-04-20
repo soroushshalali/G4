@@ -7,7 +7,7 @@ export default function App() {
     const onSubmit = data => console.log(data);
     console.log(errors);
     return (
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form onSubmit={handleSubmit(onSubmit)}><h1 className="">Hi, wie können wir dir helfen?</h1>
             <input type="text" placeholder="VORNAME" name="VORNAME" ref={register({ required: true, maxLength: 80 })} />
             <br></br>
             <input type="text" placeholder="NAME" name="NAME" ref={register({ required: true, maxLength: 100 })} />

@@ -1,0 +1,36 @@
+.linkHM{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 90%;
+    color: #3dd7ac;
+    margin-top: 2%;
+    
+}
+.linkHM > span{
+    margin: -7px 0;
+    letter-spacing: -7px;
+    font-size: 2em;
+    font-weight: 900;
+    transition: 0.5s;
+    margin-top: 2%;
+}
+.span1{
+    transform: rotate(45deg);
+    display: block;
+    position: fixed;
+    top: 2vh;
+}
+.span2{
+    display: none;
+}
+.span3{
+    transform: rotate(130deg);
+    display: block;
+    position: fixed;
+    top: 2vh;
+}

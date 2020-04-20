@@ -11,9 +11,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        {/* <Coding /> */}
-        <Workshop />
-        {/* <Form /> */}
+        <HamburgerM />
+        <Route path='/' component={Home} exact />
+        <Route path='/contact' component={Form} />
       </div>
     </BrowserRouter>
   );

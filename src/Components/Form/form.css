@@ -14,13 +14,17 @@ body{
     text-align: left;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
+    grid-column: 1/2;
 }
 form{
     display: flex;
     flex-direction: column;
     margin-bottom: 20%;
+    grid-row: 1/-1;
+    grid-column: 2/3;
 }
 form > input{
+    padding-left: 10px;
     font-size: 1.25em;
     border: 2px solid #fff;
     background-color: #03000F;
@@ -54,6 +58,7 @@ button:hover{
     display: grid;
     grid-template-columns: 40% 50%;
     justify-content: center;
+    padding-top: 20vh;
 }
 ::placeholder {
     color: #fff;

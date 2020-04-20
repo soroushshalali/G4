@@ -21,8 +21,6 @@ body{
     grid-column: 1/2;
     grid-row: 2/3;
     margin-top: -70%;
-
-
 }
 form{
     display: flex;
@@ -109,8 +107,6 @@ button:hover{
         width: 70%;
     }
 }
-
-
 @media only screen and (max-width: 768px) {
 
     .wirhelfen{ 

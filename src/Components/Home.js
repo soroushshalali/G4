@@ -4,6 +4,8 @@ import Workshop from './Workshop/Workshop';
 import Campus from './Campus/Capmus';
 import Programming from './Coding/Programming';
 import LogoC from './Coding/LogoC';
+import Partner from './Partner/Partner';
+import Footer from './Footer/Footer';
 
 
 
@@ -36,6 +38,8 @@ const Home = () => {
             <Programming />
             <Workshop />
             <Campus />
+            <Partner />
+            <Footer />
         </main>
     );
 }

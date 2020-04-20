@@ -25,7 +25,6 @@ const HamburgerM = () => {
             <span className={className1} >----------</span>
             <span className={className2} >----------</span>
             <span className={className3} >----------</span>
-
         </Link></FadeIn>
     );
 }

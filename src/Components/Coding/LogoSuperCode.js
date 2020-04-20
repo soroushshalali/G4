@@ -50,12 +50,23 @@ function useSuperCodeLogo() {
     }, [])
     return [topRight, bottomRight, bottomLeft, setBorder]
 }
+function useOpacity() {
+    const [opacity, setOpacity] = useState();
+    window.addEventListener("scroll", (el) => {
+        setOpacity((1000 - el.path[1].scrollY) / 1000);
+        // let x = el.path[1].scrollY - 300;
+        // setBackColor("rgb(" + x + "," + x + "," + x + ")");
+    })
+    return [opacity]
+}
 
 const LogoSuperCode = () => {
+    const [backColor, setBackColor] = useState();
+    const [opacity] = useOpacity();
     const [topRight, bottomRight, bottomLeft, setBorderR] = useSuperCodeLogo();
     return (
         <div>
-            <div className='logosupercode' >
+            <div style={{ opacity: opacity }} className='logosupercode' >
                 <span style={{ borderTopRightRadius: topRight, borderBottomRightRadius: bottomRight, borderBottomLeftRadius: bottomLeft, borderTopLeftRadius: 0 }} >super(code)</span>
             </div>
         </div>

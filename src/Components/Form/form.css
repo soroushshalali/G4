@@ -19,14 +19,11 @@ body{
 form{
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     margin: 0;
     padding: 0;
-=======
     margin-bottom: 20%;
     grid-row: 1/-1;
     grid-column: 2/3;
->>>>>>> 36c52abec53b305f18ce371c857c442d334a153c
 }
 form > input{
     padding-left: 10px;
@@ -63,12 +60,8 @@ button:hover{
     display: grid;
     grid-template-columns: 40% 50%;
     justify-content: center;
-<<<<<<< HEAD
     transition: 1s;
     padding-top: 10% 
-=======
-    padding-top: 20vh;
->>>>>>> 36c52abec53b305f18ce371c857c442d334a153c
 }
 ::placeholder {
     color: #fff;

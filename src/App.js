@@ -3,8 +3,13 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Route } from "react-router-dom";
 import Workshop from './Components/Workshop/Workshop.js';
-// import Campus from './Components/Campus/Capmus.js';
-// import Form from './Components/Form/Form';
+
+import Form from './Components/Form/Form';
+import Coding from './Components/Coding/Coding';
+import Programming from './Components/Coding/Programming';
+import Campus from './Components/Campus/Capmus';
+import Home from './Components/Home';
+import HamburgerM from './Components/HamburgerM';
 
 
 function App() {

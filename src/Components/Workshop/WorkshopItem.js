@@ -7,7 +7,6 @@ class WorkshopItem extends Component {
         open: true,
         text: "",
         backgroundColor: "#03000F",
-
      };
      
     handleClick = () => {
@@ -15,9 +14,11 @@ class WorkshopItem extends Component {
         if(this.state.open) {
             this.setState({ text: "grid" });
             this.setState({ backgroundColor: "#5D3EDE"  });
+            // this.setState({height: "50vh"})
         } else {
             this.setState({ text: "none" });
             this.setState({ backgroundColor: "#03000F"  });
+            // this.setState({height: "0"})
         }
         
     }
@@ -59,7 +60,7 @@ class WorkshopItem extends Component {
                         <p>Du benötigst keinen besonderen PC oder Laptop. Aber ein zweiter Monitor wäre ideal.</p>
                         <h4>Preis</h4>
                         <p>Dieser Workshop ist kostenlos. Die Tickets/Plätze sind allerdings stark limitiert</p>
-                        <a href="https://www.super-code.de/" target="_blank">ANMELDEN</a>
+                        <a href="https://www.eventbrite.de/o/supercode-gmbh-amp-co-kg-20262218583" target="_blank">ANMELDEN</a>
                     </div>
                 </section>
             </div>

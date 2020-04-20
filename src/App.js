@@ -3,17 +3,17 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Route } from "react-router-dom";
 import Workshop from './Components/Workshop/Workshop.js';
-import Campus from './Components/Campus/Capmus.js';
-import Form from './Components/Form/Form';
+// import Campus from './Components/Campus/Capmus.js';
+// import Form from './Components/Form/Form';
 
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Coding />
+        {/* <Coding /> */}
         <Workshop />
-        <Form />
+        {/* <Form /> */}
       </div>
     </BrowserRouter>
   );

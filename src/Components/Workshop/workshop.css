@@ -39,7 +39,6 @@
 .klappentext {
     text-align: left;
     display: none;
-    /* display: grid; */
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 50px;
     padding: 10px 40px;

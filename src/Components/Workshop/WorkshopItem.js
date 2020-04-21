@@ -26,7 +26,7 @@ class WorkshopItem extends Component {
         return ( 
             <div className="coden-lernen">
                     <div>
-                        <h3 onClick={this.handleClick} style={{ backgroundColor: this.state.backgroundColor}}>{this.props.name}</h3>
+                        <h3 className="online-workshop" onClick={this.handleClick} style={{ backgroundColor: this.state.backgroundColor}}>{this.props.name}</h3>
                     </div>
                 <section className="klappentext" style={{ display: this.state.text}}>
                     <div>

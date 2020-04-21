@@ -3,17 +3,17 @@
 * {
     font-family: 'Fira Sans', sans-serif;
 }
-.lerne-coden {
+.lerne-zu-coden {
     font-family: 'Fira Sans', sans-serif;
     background-color: #03000F;
     /* height: 50vh; */
 }
-.lerne-coden h2 {
+.lerne-zu-coden h2 {
     color: #3DD7AC;
     font-size: 4rem;
     padding: 70px 0 70px 10px;
     text-align: left;
-    margin: 0;
+    margin-left: 45px;
 }
 .coden-lernen h3 {
     text-align: left;
@@ -21,17 +21,22 @@
     margin: 0;
     background-color: #5D3EDE;
     color: #3DD7AC;
+    font-size: 2rem;
 
 }
 .coden-lernen h3:hover {
     cursor: pointer;
 }
-.lerne-coden span {
+.lerne-zu-coden span {
     -webkit-text-fill-color: #03000F;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #3DD7AC;
 }
-
+/* .accordion {
+    -webkit-text-fill-color: #03000F;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3DD7AC;
+} */
 .openclose {
     display: none;
 }
@@ -41,14 +46,76 @@
     display: none;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 50px;
-    padding: 10px 40px;
+    column-gap: 10px;
+    padding: 20px 45px;
     background-color: #5D3EDE;
     color: white;
+    font-size: 1rem;
 }
 .klappentext a {
+    display: inline-block;
     color: white;
     border: white solid 3px;
     padding: 5px 50px;
     text-decoration: none;
-    margin-top: 30px;
+    margin-top: 50px;
+}
+.klappentext ul {
+    list-style: none;
+}
+.klappentext div {
+    margin: 30px 0;
+}
+.accordion:hover {
+    background-color: #5D3EDE;
+}
+.online-workshop:hover{
+    color: #5D3EDE;
+}
+
+
+
+/* Mobile Version */
+
+@media only screen and (max-width: 1140px) {
+    .lerne-zu-coden h2 {
+        color: #3DD7AC;
+        font-size: 4rem;
+        padding: 70px 0 70px 10px;
+        text-align: left;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    .lerne-zu-coden h2 {
+        color: #3DD7AC;
+        font-size: 4rem;
+        padding: 70px 0 70px 10px;
+        text-align: left;
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .lerne-zu-coden h2 {
+        color: #3DD7AC;
+        font-size: 4rem;
+        padding: 70px 0 70px 10px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .klappentext {
+        text-align: left;
+        display: none;
+        grid-template-columns: 1fr;
+        grid-column-gap: 50px;
+        column-gap: 10px;
+        padding: 20px 45px;
+        background-color: #5D3EDE;
+        color: white;
+        font-size: 1rem;
+    }
 }

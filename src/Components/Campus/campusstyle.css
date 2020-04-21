@@ -79,14 +79,28 @@
   grid-column: 11/12;
   margin-top: -70px;
   z-index: 1;
+  animation-name: ani-rotate;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
-
+@keyframes ani-rotate{
+  from{
+      transform: rotate(0deg);
+  }
+  to{
+      transform: rotate(1800deg);
+  }
+}
 .outline{
   -webkit-text-stroke: 1px #3DD7AC;
   -webkit-text-fill-color: transparent;
 }
-
 .hashtag{
   color: #5D3EDE;
   padding-top: 5%;
+}
+
+@media only screen and (max-width: 1140px){
+
 }

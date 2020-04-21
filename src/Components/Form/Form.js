@@ -1,7 +1,7 @@
 import React from 'react';
 import './form.css';
 import FormItem from './FormItem';
-import FadeIn from 'react-fade-in';
+// import FadeIn from 'react-fade-in';
 // import FadeIn from 'react-fade-in';
 
 const Form = () => {

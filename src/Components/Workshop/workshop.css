@@ -67,9 +67,14 @@
 .accordion:hover {
     background-color: #5D3EDE;
 }
+<<<<<<< HEAD
 .Inhalte-Details {
     display: flex;
     flex-direction: row;
+=======
+.online-workshop:hover{
+    color: #5D3EDE;
+>>>>>>> f2e33ab98a6cddede8f86796402a5f87df66d22a
 }
 
 

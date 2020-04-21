@@ -1,6 +1,7 @@
 import React from 'react';
 import './form.css';
 import { useForm } from 'react-hook-form';
+import Nachricht from './Nachricht';
 
 export default function App() {
     const { register, handleSubmit, errors } = useForm();
@@ -18,7 +19,9 @@ export default function App() {
             <br></br>
             <textarea name="NACHRICHT" placeholder="NACHRICHT" ref={register({ required: true, maxLength: 1000 })} />
             <br></br>
-            <input type="submit" />
+            {/* <input type="submit" onChange={handleSubmit} /> */}
+            <Nachricht />
         </form>
+
     );
 }

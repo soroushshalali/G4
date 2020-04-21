@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './hmStyle.css';
 import { Link } from 'react-router-dom'
-import FadeIn from 'react-fade-in';
+//import FadeIn from 'react-fade-in';
 
 
 const HamburgerM = () => {
@@ -20,13 +20,13 @@ const HamburgerM = () => {
 
     }
 
-    return (<FadeIn>
+    return (
         <Link className='linkHM' onClick={changeLink} to={link} >
             <span className={className1} >----------</span>
             <span className={className2} >----------</span>
             <span className={className3} >----------</span>
 
-        </Link></FadeIn>
+        </Link>
     );
 }
 

@@ -4,7 +4,7 @@ import Workshop from './Workshop/Workshop';
 import Campus from './Campus/Capmus';
 import Programming from './Coding/Programming';
 import LogoC from './Coding/LogoC';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+// import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Partner from './Partner/Partner';
 import Footer from './Footer/Footer'
 import Verctor from './Vector/Vector';

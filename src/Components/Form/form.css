@@ -77,7 +77,7 @@ button:hover{
     color: #fff;
 }
 /* MQ */
-@media only screen and (max-width: 320px) {
+/* @media only screen and (max-width: 320px) {
 
     .wirhelfen{ 
         color: #3dd7ac;
@@ -111,7 +111,44 @@ button:hover{
         padding-left: 10%;
         width: 70%;
     }
+} */
+
+
+@media only screen and (max-width: 576px) {
+    .wirhelfen{ 
+        color: #3dd7ac;
+        text-align:center;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 900;
+        font-size: 2em;
+        font-variant-position: super;
+    }
+    .superhilfe{ 
+        text-align: left;
+        color: #3dd7ac;
+        font-size: 1em;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        margin-top: -155%;
+        margin-bottom: 10vh;
+        
+    }
+    .helfen{
+        
+            margin-left: 4%;
+            margin-top: 0.5%;
+            display: block;
+    
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10%;
+        width: 70%;
+    }
 }
+
+
 
 
 /* 
@@ -193,11 +230,12 @@ button:hover{
         height: 100vh
     }
 } */ */
-
-@media only screen and (max-width: 768px){
+/* 
+@media only screen and (max-width: 786px){
     body{
-
+        
     }
+
     .wirhelfen{ 
         color: #3dd7ac;
         text-align:center;
@@ -232,38 +270,9 @@ button:hover{
         padding-left: 10%;
         width: 70%;
     }
+} */
+
+@media only screen and (max-width: 1140px){
+
 }
 
-@media only screen and (max-width: 576px) {
-    .wirhelfen{ 
-        color: #3dd7ac;
-        text-align:center;
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 900;
-        font-size: 2em;
-        font-variant-position: super;
-    }
-    .superhilfe{ 
-        text-align: left;
-        color: #3dd7ac;
-        font-size: 1em;
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 400;
-        margin-top: -155%;
-        margin-bottom: 10vh;
-        
-    }
-    .helfen{
-        
-            margin-left: 4%;
-            margin-top: 0.5%;
-            display: block;
-    
-    }
-    form{
-        display: flex;
-        flex-direction: column;
-        padding-left: 10%;
-        width: 70%;
-    }
-}

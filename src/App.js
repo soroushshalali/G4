@@ -11,7 +11,6 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <HamburgerM />
-
         <Route path='/' component={Home} exact />
         <Route path='/contact' component={Form} />
       </div>

@@ -3,10 +3,9 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Route } from "react-router-dom";
 import Workshop from './Components/Workshop/Workshop.js';
-// import Campus from './Components/Campus/Capmus.js';
-// import Form from './Components/Form/Form';
-
-
+import Home from './Components/Home';
+import HamburgerM from './Components/HamburgerM';
+import Form from './Components/Form/Form';
 function App() {
   return (
     <BrowserRouter>
@@ -18,5 +17,4 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;

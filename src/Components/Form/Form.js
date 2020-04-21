@@ -1,6 +1,6 @@
 import React from 'react';
 import './form.css';
-import FormItem from './FormItem';
+// import FormItem from './FormItem';
 
 const Form = () => {
     return (
@@ -11,7 +11,7 @@ const Form = () => {
                 <br></br><br></br>Unser Campus befindet sich im Super7000<br></br>Coworking Space -
              der Mutter aller CoworkingSpaces.<br></br>Die genaue Adresse lautet: <br></br>
                 <br></br>Ratherstraße. 25 <br></br>40476 Düsseldorf</h2>
-            <FormItem />
+            {/* <FormItem /> */}
         </main>
     );
 }

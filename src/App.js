@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <HamburgerM />
+        {/* <HamburgerM /> */}
 
         <Route path='/' component={Home} exact />
         <Route path='/contact' component={Form} />

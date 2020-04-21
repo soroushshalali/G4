@@ -113,79 +113,9 @@ button:hover{
     }
 }
 
-@media only screen and (max-width: 576px) {
 
-    .wirhelfen{ 
-        color: #3dd7ac;
-        text-align:center;
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 900;
-        font-size: 2em;
-        font-variant-position: super;
-    }
-    .superhilfe{ 
-        text-align: left;
-        color: #3dd7ac;
-        font-size: 1em;
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 400;
-        margin-top: -140%;
-        
-    }
-    
-    .helfen{
-        
-            margin-left: 4%;
-            margin-top: 0.5%;
-            display: block;
-    
-    }
-    form{
-        display: flex;
-        flex-direction: column;
-        padding-left: 10%;
-        width: 70%;
-    }
-}
-@media only screen and (max-width: 768px) {
-
-    .wirhelfen{ 
-        color: #3dd7ac;
-        text-align:center;
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 900;
-        font-size: 3em;
-        font-variant-position: super;
-    }
-    .superhilfe{ 
-        text-align:center;
-        color: #3dd7ac;
-        font-size: 1em;
-        text-align: center;
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 400;
-        padding-top: 3%;
-        margin-top: -110%;
-    }
-    
-    .helfen{
-        text-align: center;
-        margin-left: 4%;
-        display: inline-block;
-        flex-direction: column;
-        transition: 1s;
-    }
-    form{
-        display: flex;
-        flex-direction: column;
-        padding-top: 5%;
-        padding-left: 10%;
-        width: 70%;
-    }
-}
-
-
-/* @media only screen and (max-width: 992px) {
+/* 
+@media only screen and (max-width: 1024px) {
 
     .wirhelfen{ 
         color: #3dd7ac;
@@ -262,4 +192,78 @@ button:hover{
         padding-top: 10%;
         height: 100vh
     }
-} */
+} */ */
+
+@media only screen and (max-width: 768px){
+    body{
+
+    }
+    .wirhelfen{ 
+        color: #3dd7ac;
+        text-align:center;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 900;
+        font-size: 3em;
+        font-variant-position: super;
+    }
+    .superhilfe{ 
+        text-align:center;
+        color: #3dd7ac;
+        font-size: 1em;
+        text-align: center;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        padding-top: 3%;
+        margin-top: -110%;
+    }
+    
+    .helfen{
+        text-align: center;
+        margin-left: 4%;
+        transition: 1s;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        padding-top: 5%;
+        padding-left: 10%;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .wirhelfen{ 
+        color: #3dd7ac;
+        text-align:center;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 900;
+        font-size: 2em;
+        font-variant-position: super;
+    }
+    .superhilfe{ 
+        text-align: left;
+        color: #3dd7ac;
+        font-size: 1em;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        margin-top: -155%;
+        margin-bottom: 10vh;
+        
+    }
+    .helfen{
+        
+            margin-left: 4%;
+            margin-top: 0.5%;
+            display: block;
+    
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10%;
+        width: 70%;
+    }
+}

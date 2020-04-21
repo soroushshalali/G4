@@ -14,18 +14,7 @@ function useCreateElement(para) {
         }
         setSpan(elArray2);
     }
-    // function blinken() {
-    //     setInterval(() => {
-    //         let randomNum = Math.floor(Math.random() * para);
-    //         if (elArray2[randomNum].key == randomNum) {
-    //             console.log(elArray2[randomNum].props.style);
-    //         } else {
-    //             console.log(false)
-    //         }
-    //     }, 2000);
-    // }
     useEffect(() => {
-        // blinken();
         ArrayFunc();
     }, [])
     return [span, ArrayFunc]

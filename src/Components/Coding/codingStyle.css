@@ -350,6 +350,12 @@ body{
 
 
         }
+        @media only screen and (max-width: 320px){
+            .title-sec >h5{
+                width: 210px;
+                font-size: 1em;
+            }
+        }
 
 
 

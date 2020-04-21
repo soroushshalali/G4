@@ -6,10 +6,6 @@ import Workshop from './Components/Workshop/Workshop.js';
 import Home from './Components/Home';
 import HamburgerM from './Components/HamburgerM';
 import Form from './Components/Form/Form';
-<<<<<<< HEAD
-=======
-
->>>>>>> 562c91a93a15989d83eebeb6237fbdfae499a2ab
 function App() {
   return (
     <BrowserRouter>
@@ -22,10 +18,4 @@ function App() {
     </BrowserRouter>
   );
 }
-<<<<<<< HEAD
 export default App;
-=======
-
-export default App;
-
->>>>>>> 562c91a93a15989d83eebeb6237fbdfae499a2ab

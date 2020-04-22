@@ -7,6 +7,7 @@ class WorkshopItem extends Component {
         open: true,
         text: "",
         backgroundColor: "#03000F",
+        color: "",
     };
 
     handleClick = () => {
@@ -14,10 +15,12 @@ class WorkshopItem extends Component {
         if (this.state.open) {
             this.setState({ text: "grid" });
             this.setState({ backgroundColor: "#5D3EDE" });
+            this.setState({ color: "#3DD7AC" });
             // this.setState({height: "50vh"})
         } else {
             this.setState({ text: "none" });
             this.setState({ backgroundColor: "#03000F" });
+            this.setState({ color: "" });
             // this.setState({height: "0"})
         }
 
@@ -26,8 +29,7 @@ class WorkshopItem extends Component {
         return (
             <div className="coden-lernen">
                 <div>
-                    <h3 className="online-workshop" onClick={this.handleClick} style={{ backgroundColor: this.state.backgroundColor }}>{this.props.name}</h3>
-                    <i class="fas fa-chevron-up"></i>
+                    <h3 className="online-workshop" onClick={this.handleClick} style={{ backgroundColor: this.state.backgroundColor, color: this.state.color }}>{this.props.name}</h3>
                 </div>
                 <section className="klappentext" style={{ display: this.state.text }}>
                     <div>

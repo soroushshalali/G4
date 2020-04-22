@@ -3,50 +3,53 @@ import "./workshop.css"
 
 
 class Designworkshop extends Component {
-    state = { 
+    state = {
         open: true,
         text: "",
         backgroundColor: "#03000F",
-     };
-     
+        color: "",
+    };
+
     handleClick = () => {
         this.setState({ open: !this.state.open });
-        if(this.state.open) {
+        if (this.state.open) {
             this.setState({ text: "grid" });
-            this.setState({ backgroundColor: "#5D3EDE"  });
+            this.setState({ backgroundColor: "#5D3EDE" });
+            this.setState({ color: "#3DD7AC" });
             // this.setState({height: "50vh"})
         } else {
             this.setState({ text: "none" });
-            this.setState({ backgroundColor: "#03000F"  });
+            this.setState({ backgroundColor: "#03000F" });
+            this.setState({ color: "" });
             // this.setState({height: "0"})
         }
-        
+
     }
     render() {
-        return ( 
+        return (
             <div className="coden-lernen">
-                    <div>
-                        <h3 className="online-workshop" onClick={this.handleClick} style={{ backgroundColor: this.state.backgroundColor}}>{this.props.name}</h3>
-                    </div>
-                <section className="klappentext" style={{ display: this.state.text}}>
+                <div>
+                    <h3 className="online-workshop" onClick={this.handleClick} style={{ backgroundColor: this.state.backgroundColor, color: this.state.color }}>{this.props.name}</h3>
+                </div>
+                <section className="klappentext" style={{ display: this.state.text }}>
                     <div>
                         <p>An vier Abenden lernst du alle Basics für die Erstellung eines modernen Web-Designs. Design Basics, UX & UI, Prototyping mit Figma bis hin zu Designthinking. Du lernst intensiv, schnell und ultra praxisorientiert - denn schon von Tag eins arbeitest du an deinem digitalen und funktionalen Prototypen.<br></br>Durch die praktische Anwendung wirst du die wichtigsten Themen aus dem Bereich Webdesign schnell verstehen</p><br></br>
                         <div className="Inhalte_Details">
-                        <h4>Inhalte</h4>
-                        <ul>
-                            <li>Design Basics</li>
-                            <li>UX & UI Basics</li>
-                            <li>Prototyping</li>
-                            <li>Designthinking</li>
-                        </ul><br></br>
-                        <h4>Details</h4>
-                        <ul>
-                            <li>Zeitraum: 02.06. - 23.06.2020</li>
-                            <li>Wochentage: immer Dienstags</li>
-                            <li>Uhrzeit: 18:00 - 21:00 Uhr</li>
-                            <li>Lerneinheiten: 16 (je 45 Minuten)</li>
-                            <li>Level: Anfänger*innen</li>
-                        </ul>
+                            <h4>Inhalte</h4>
+                            <ul>
+                                <li>Design Basics</li>
+                                <li>UX & UI Basics</li>
+                                <li>Prototyping</li>
+                                <li>Designthinking</li>
+                            </ul><br></br>
+                            <h4>Details</h4>
+                            <ul>
+                                <li>Zeitraum: 02.06. - 23.06.2020</li>
+                                <li>Wochentage: immer Dienstags</li>
+                                <li>Uhrzeit: 18:00 - 21:00 Uhr</li>
+                                <li>Lerneinheiten: 16 (je 45 Minuten)</li>
+                                <li>Level: Anfänger*innen</li>
+                            </ul>
                         </div>
                     </div>
                     <div>
@@ -67,8 +70,8 @@ class Designworkshop extends Component {
                     </div>
                 </section>
             </div>
-         );
+        );
     }
 }
- 
+
 export default Designworkshop;

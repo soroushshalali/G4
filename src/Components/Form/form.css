@@ -77,30 +77,27 @@ button:hover{
     color: #fff;
 }
 /* MQ */
-/* @media only screen and (max-width: 320px) {
-
-    .wirhelfen{ 
-        color: #3dd7ac;
+@media only screen and (max-width: 320px) {
+    .wirhelfen{
+        color: #3DD7AC;
         text-align:center;
         font-family: 'Fira Sans', sans-serif;
         font-weight: 900;
-        font-size: 3em;
+        font-size: 1.5em;
         font-variant-position: super;
     }
-    .superhilfe{ 
+    .superhilfe{
         text-align:center;
-        color: #3dd7ac;
+        color: #3DD7AC;
         font-size: 1em;
         text-align: center;
         font-family: 'Fira Sans', sans-serif;
         font-weight: 400;
-        
     }
-    
     .helfen{
         text-align: center;
         margin-left: 4%;
-        display: inline-block;
+        display: flex;
         flex-direction: column;
         transition: 1s;
     }
@@ -111,34 +108,28 @@ button:hover{
         padding-left: 10%;
         width: 70%;
     }
-} */
-
-
+}
 @media only screen and (max-width: 576px) {
-    .wirhelfen{ 
-        color: #3dd7ac;
+    .wirhelfen{
+        color: #3DD7AC;
         text-align:center;
         font-family: 'Fira Sans', sans-serif;
         font-weight: 900;
         font-size: 2em;
         font-variant-position: super;
     }
-    .superhilfe{ 
+    .superhilfe{
         text-align: left;
-        color: #3dd7ac;
+        color: #3DD7AC;
         font-size: 1em;
         font-family: 'Fira Sans', sans-serif;
         font-weight: 400;
-        margin-top: -155%;
-        margin-bottom: 10vh;
-        
+        margin-top: -140%;
     }
     .helfen{
-        
             margin-left: 4%;
             margin-top: 0.5%;
             display: block;
-    
     }
     form{
         display: flex;
@@ -147,32 +138,25 @@ button:hover{
         width: 70%;
     }
 }
-
-
-
-
-/* 
-@media only screen and (max-width: 1024px) {
-
-    .wirhelfen{ 
-        color: #3dd7ac;
+@media only screen and (max-width: 768px) {
+    .wirhelfen{
+        color: #3DD7AC;
         text-align:center;
         font-family: 'Fira Sans', sans-serif;
         font-weight: 900;
         font-size: 3em;
         font-variant-position: super;
     }
-    .superhilfe{ 
+    .superhilfe{
         text-align:center;
-        color: #3dd7ac;
+        color: #3DD7AC;
         font-size: 1em;
         text-align: center;
         font-family: 'Fira Sans', sans-serif;
         font-weight: 400;
         padding-top: 3%;
-        margin-top: -0%;
+        margin-top: -190%;
     }
-    
     .helfen{
         text-align: center;
         margin-left: 4%;
@@ -188,91 +172,3 @@ button:hover{
         width: 70%;
     }
 }
-@media only screen and (max-width: 1024px) {
-    .wirhelfen{ color: #3dd7ac;
-        text-align:left;
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 900;
-        font-size: 2.4em;
-        font-variant-position: super;
-        grid-column: 1/2;
-        grid-row: 1/2;
-        height: 100%;
-    
-    }
-    .superhilfe{ 
-        color: #3dd7ac;
-        font-size: 0.77em;
-        text-align: left;
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 400;
-        grid-column: 1/2;
-        grid-row: 2/3;
-        margin-top: -70%;
-    }
-    form{
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        padding: 0;
-        margin-bottom: 20%;
-        grid-row: 1/-1;
-        grid-column: 2/3;
-    }
-    .helfen{
-        margin-left: 4%;
-        margin-top: 2%;
-        display: grid;
-        grid-template-columns: 40% 50%;
-        justify-content: center;
-        transition-duration: 2s;
-        padding-top: 10%;
-        height: 100vh
-    }
-} */ */
-/* 
-@media only screen and (max-width: 786px){
-    body{
-        
-    }
-
-    .wirhelfen{ 
-        color: #3dd7ac;
-        text-align:center;
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 900;
-        font-size: 3em;
-        font-variant-position: super;
-    }
-    .superhilfe{ 
-        text-align:center;
-        color: #3dd7ac;
-        font-size: 1em;
-        text-align: center;
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 400;
-        padding-top: 3%;
-        margin-top: -110%;
-    }
-    
-    .helfen{
-        text-align: center;
-        margin-left: 4%;
-        transition: 1s;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3,1fr);
-    }
-    form{
-        display: flex;
-        flex-direction: column;
-        padding-top: 5%;
-        padding-left: 10%;
-        width: 70%;
-    }
-} */
-
-@media only screen and (max-width: 1140px){
-
-}
-

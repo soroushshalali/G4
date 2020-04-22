@@ -75,7 +75,12 @@
 color: #5D3EDE;
 }
 
-
+.coden-lernen > div:nth-of-type(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+} 
 /* Mobile Version */
 
 @media only screen and (max-width: 1140px) {

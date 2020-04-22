@@ -3,32 +3,33 @@ import "./workshop.css"
 
 
 class WorkshopItem extends Component {
-    state = { 
+    state = {
         open: true,
         text: "",
         backgroundColor: "#03000F",
-     };
-     
+    };
+
     handleClick = () => {
         this.setState({ open: !this.state.open });
-        if(this.state.open) {
+        if (this.state.open) {
             this.setState({ text: "grid" });
-            this.setState({ backgroundColor: "#5D3EDE"  });
+            this.setState({ backgroundColor: "#5D3EDE" });
             // this.setState({height: "50vh"})
         } else {
             this.setState({ text: "none" });
-            this.setState({ backgroundColor: "#03000F"  });
+            this.setState({ backgroundColor: "#03000F" });
             // this.setState({height: "0"})
         }
-        
+
     }
     render() {
-        return ( 
+        return (
             <div className="coden-lernen">
-                    <div>
-                        <h3 className="online-workshop" onClick={this.handleClick} style={{ backgroundColor: this.state.backgroundColor}}>{this.props.name}</h3>
-                    </div>
-                <section className="klappentext" style={{ display: this.state.text}}>
+                <div>
+                    <h3 className="online-workshop" onClick={this.handleClick} style={{ backgroundColor: this.state.backgroundColor }}>{this.props.name}</h3>
+                    <i class="fas fa-chevron-up"></i>
+                </div>
+                <section className="klappentext" style={{ display: this.state.text }}>
                     <div>
                         <p>Tauche ein in die wundervolle Welt der Web-Entwicklung und mache bei uns dein Seepferdchen im Bereich HTML & CSS.</p><br></br>
                         <h4>Inhalte</h4>

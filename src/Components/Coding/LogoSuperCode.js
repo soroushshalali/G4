@@ -15,8 +15,8 @@ const LogoSuperCode = () => {
     const [topRight, bottomRight, bottomLeft, topLeft, setBorderR] = useSuperCodeLogo();
     return (
         <div>
-            <div style={{ opacity: opacity }} className='logosupercode' >
-                <span style={{ borderTopRightRadius: topRight, borderBottomRightRadius: bottomRight, borderBottomLeftRadius: bottomLeft, borderTopLeftRadius: topLeft }} >super(code)</span>
+            <div className='logosupercode' >
+                <span>super(code)</span>
             </div>
         </div>
     );

@@ -195,12 +195,13 @@ transition: 0.2s;
 margin-top: 0vh;
 display: inline-block;
 font-weight: 700;
-padding: 50px 25px;
 border-radius: 100%;
 transition: 1s;
 transition-timing-function: linear;
 outline: none;
-border: 2px solid white;
+padding-left: 20px;
+padding-top: 30px;
+font-size: 1.3em;
 }
 
 /* Mobile Version(test) */

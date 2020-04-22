@@ -1,18 +1,14 @@
 import React, { useState } from 'react';
 import useCreateElement from './UseCreateElement';
+import useSuperCodeLogo from './UseAniHook';
 
 const ImgSec = () => {
     const [span, setSpan] = useCreateElement(50);
-    // const [backColor, setBackColor] = useState();
-    // window.addEventListener("scroll", (el) => {
-    //     console.log(el);
-    //     // let x = el.path[1].scrollY - 300;
-    //     // setBackColor("rgb(" + x + "," + x + "," + x + ")")
-    // })
+    const [topRight, bottomRight, bottomLeft, topLeft, setBorderR] = useSuperCodeLogo();
     return (
         <article className="test-art" >
-
             <section className="img-sec" >
+                <span style={{ borderTopRightRadius: topRight, borderBottomRightRadius: bottomRight, borderBottomLeftRadius: bottomLeft, borderTopLeftRadius: topLeft }} >.</span>
                 <img src="img/Vector22.png" alt="" />
                 <div className="star-div1" >
                     {span}

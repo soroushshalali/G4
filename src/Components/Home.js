@@ -8,7 +8,7 @@ import LogoC from './Coding/LogoC';
 import Partner from './Partner/Partner';
 import Footer from './Footer/Footer'
 import Verctor from './Vector/Vector';
-
+import './Coding/codingStyle.css'
 
 const Home = () => {
     // window.addEventListener("scroll", (el) => {

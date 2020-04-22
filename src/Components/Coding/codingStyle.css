@@ -76,7 +76,6 @@ margin-top: -4vh;
 }
 .img-sec{
     width: 100%;
-    overflow: hidden;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 25% 25% 25% 25%;
@@ -84,6 +83,17 @@ margin-top: -4vh;
     background-color: #03000f;
     height: 100%;
     box-shadow: 0px 0px 5px #777777;
+    overflow-x: hidden;
+}
+.img-sec > span{
+    grid-row: 1/-1;
+    grid-column:2/3 ;
+    width: 800px;
+    height: 800px;
+    border: 5px solid #5d3ede;
+    border-right: none;
+    z-index: 1;
+    transition-duration: 1s;
 }
 .img-sec > img:nth-of-type(1){
     margin-top: 10vh;
@@ -92,6 +102,7 @@ margin-top: -4vh;
     grid-row: 1/-1;
     grid-column:2/3 ;
     position: relative;
+    display: none;
 }
 .img-sec > img:nth-of-type(2){
     width: 400px;
@@ -100,6 +111,7 @@ margin-top: -4vh;
     grid-column: 2/3;
     position: relative;
     margin-top: 20vh;
+    z-index: 10;
 }
 .star-div1{
     grid-row: 1/2;
@@ -163,14 +175,16 @@ height: 0;
 padding-left: 5%;
 }
 .logoc >span{
-    margin-bottom: -10vh;
-    font-size: 2em;
-    font-weight: 900;
-    color: white;
+font-size: 2em;
+font-weight: 900;
+color: white;
+display: inline-block;
+padding-top: 20px;
 }
 .logosupercode{
 position: sticky;
 color: #5d3ede;
+color: white;
 top: 0vh;
 right: 100px;
 width: 0px;
@@ -181,13 +195,12 @@ transition: 0.2s;
 margin-top: 0vh;
 display: inline-block;
 font-weight: 700;
-background-color: white;
 padding: 50px 25px;
 border-radius: 100%;
 transition: 1s;
 transition-timing-function: linear;
 outline: none;
-box-shadow: 0px 0px 100px #5d3ede;
+border: 2px solid white;
 }
 
 /* Mobile Version(test) */
@@ -249,6 +262,9 @@ box-shadow: 0px 0px 100px #5d3ede;
                 grid-template-columns: 33% 33% 33%;
                 grid-template-rows: 33% 33% 33%;
     }
+    .img-sec > span{
+            display: none;
+    }
     .img-sec > img:nth-of-type(2){
                 grid-row: 2/-1;
                 grid-column: 1/3;
@@ -299,9 +315,8 @@ box-shadow: 0px 0px 100px #5d3ede;
             font-size: 3em;
             box-shadow: none;
     }
-    }
-
-    @media only screen and (max-width: 786px){
+}
+@media only screen and (max-width: 786px){
 body{
             font-size: 15px;
 }
@@ -312,9 +327,8 @@ body{
 .title-sec >h5{
     width: 380px;
 }
-        }
-
-    @media only screen and (max-width: 576px){
+}
+@media only screen and (max-width: 576px){
        body{
            font-size: 12px;
        }
@@ -349,13 +363,13 @@ body{
 }
 
 
-        }
-        @media only screen and (max-width: 320px){
+}
+@media only screen and (max-width: 320px){
             .title-sec >h5{
                 width: 210px;
                 font-size: 1em;
             }
-        }
+}
 
 
 
